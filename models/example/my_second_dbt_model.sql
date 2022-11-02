@@ -8,7 +8,8 @@ from {{ref('my_first_dbt_model')}}
 ),
 
 final as(
-    select endstationname from a 
+    select top 1000 * from a 
 )
+
 
 select * from final

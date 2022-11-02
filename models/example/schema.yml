@@ -6,7 +6,7 @@ models:
       description: "A starter dbt model"
       columns:
           - name: id
-            description: "The primary key for this table"
+            description: "model on city bike trip data "
             tests:
                 - unique
                 - not_null
@@ -15,7 +15,16 @@ models:
       description: "A starter dbt model"
       columns:
           - name: id
-            description: "The primary key for this table"
+            description: "model on city bike trip data"
+            tests:
+                - unique
+                - not_null
+
+    - name: my_third_dbt_model
+      description: "A starter dbt model"
+      columns:
+          - name: id
+            description: "model on city bike trip data"
             tests:
                 - unique
                 - not_null
