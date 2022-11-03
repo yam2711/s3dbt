@@ -18,6 +18,7 @@ models:
             description: "model on city bike trip data"
             tests:
                 - null
+    
     - name: my_third_dbt_model
       description: "A starter dbt model"
       columns:
