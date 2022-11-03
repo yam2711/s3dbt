@@ -7,23 +7,18 @@ models:
       columns:
           - name: id
             description: "model on city bike trip data "
-            tests:
-               
-                - null
+            
 
     - name: my_second_dbt_model
       description: "A starter dbt model"
       columns:
           - name: id
             description: "model on city bike trip data"
-            tests:
-                - null
+           
     
     - name: my_third_dbt_model
       description: "A starter dbt model"
       columns:
           - name: id
             description: "model on city bike trip data"
-            tests:
-                - unique
-                - not_null
+            
