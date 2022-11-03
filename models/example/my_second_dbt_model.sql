@@ -18,6 +18,7 @@ final as(
     from a 
     inner join b                                                                                                                                                                                               
     on a.bikeid = b.bikeid
+    group by bikeid
     
     )
 
